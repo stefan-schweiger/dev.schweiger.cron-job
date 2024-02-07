@@ -1,0 +1,52 @@
+{
+  "id": "dev.schweiger.cron-job",
+  "version": "1.0.0",
+  "compatibility": ">=5.0.0",
+  "sdk": 3,
+  "platforms": [
+    "local"
+  ],
+  "name": {
+    "en": "CronJob"
+  },
+  "description": {
+    "en": "Trigger Flows with Cron Expressions.",
+    "de": "Starte Flows mit Cron-Ausdrücken",
+    "nl": "Flows triggeren met cron-expressies",
+    "es": "Activar Flows con expresiones cron"
+  },
+  "category": [
+    "tools"
+  ],
+  "permissions": [],
+  "images": {
+    "small": "/assets/images/small.png",
+    "large": "/assets/images/large.png",
+    "xlarge": "/assets/images/xlarge.png"
+  },
+  "author": {
+    "name": "Stefan Schweiger",
+    "email": "hello@schweiger.dev"
+  },
+  "brandColor": "#8acba0",
+  "tags": {
+    "en": [
+      "cron",
+      "schedule",
+      "task",
+      "job",
+      "timer"
+    ]
+  },
+  "contributing": {
+    "donate": {
+      "paypal": {
+        "username": "StefanSchweiger"
+      }
+    }
+  },
+  "source": "https://github.com/stefan-schweiger/dev.schweiger.cron-job",
+  "bugs": {
+    "url": "https://github.com/stefan-schweiger/dev.schweiger.cron-job/issues"
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "id": "cron_parts_schedule",
+  "title": {
+    "en": "Schedule triggered",
+    "de": "Zeitplan ausgelöst"
+  },
+  "titleFormatted": {
+    "en": "Schedule [[second]] [[minute]] [[hour]] [[dayOfMonth]] [[month]] [[dayOfWeek]] triggered",
+    "de": "Zeitplan [[second]] [[minute]] [[hour]] [[dayOfMonth]] [[month]] [[dayOfWeek]] ausgelöst"
+  },
+  "args": [
+    {
+      "name": "second",
+      "type": "text",
+      "required": false,
+      "placeholder": {
+        "en": "Second",
+        "de": "Sekunde"
+      }
+    },
+    {
+      "name": "minute",
+      "type": "text",
+      "placeholder": {
+        "en": "Minute",
+        "de": "Minute"
+      }
+    },
+    {
+      "name": "hour",
+      "type": "text",
+      "placeholder": {
+        "en": "Hour",
+        "de": "Stunde"
+      }
+    },
+    {
+      "name": "dayOfMonth",
+      "type": "text",
+      "placeholder": {
+        "en": "Day of Month",
+        "de": "Tag des Monats"
+      }
+    },
+    {
+      "name": "month",
+      "type": "text",
+      "placeholder": {
+        "en": "Month",
+        "de": "Monat"
+      }
+    },
+    {
+      "name": "dayOfWeek",
+      "type": "text",
+      "placeholder": {
+        "en": "Day of Week",
+        "de": "Tag der Woche"
+      }
+    }
+  ]
+}

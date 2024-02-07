@@ -1,0 +1,140 @@
+{
+  "_comment": "This file is generated. Please edit .homeycompose/app.json instead.",
+  "id": "dev.schweiger.cron-job",
+  "version": "1.0.0",
+  "compatibility": ">=5.0.0",
+  "sdk": 3,
+  "platforms": [
+    "local"
+  ],
+  "name": {
+    "en": "CronJob"
+  },
+  "description": {
+    "en": "Trigger Flows with Cron Expressions.",
+    "de": "Starte Flows mit Cron-Ausdrücken",
+    "nl": "Flows triggeren met cron-expressies",
+    "es": "Activar Flows con expresiones cron"
+  },
+  "category": [
+    "tools"
+  ],
+  "permissions": [],
+  "images": {
+    "small": "/assets/images/small.png",
+    "large": "/assets/images/large.png",
+    "xlarge": "/assets/images/xlarge.png"
+  },
+  "author": {
+    "name": "Stefan Schweiger",
+    "email": "hello@schweiger.dev"
+  },
+  "brandColor": "#8acba0",
+  "tags": {
+    "en": [
+      "cron",
+      "schedule",
+      "task",
+      "job",
+      "timer"
+    ]
+  },
+  "contributing": {
+    "donate": {
+      "paypal": {
+        "username": "StefanSchweiger"
+      }
+    }
+  },
+  "source": "https://github.com/stefan-schweiger/dev.schweiger.cron-job",
+  "bugs": {
+    "url": "https://github.com/stefan-schweiger/dev.schweiger.cron-job/issues"
+  },
+  "flow": {
+    "triggers": [
+      {
+        "id": "cron_expression_schedule",
+        "title": {
+          "en": "Schedule triggered",
+          "de": "Zeitplan ausgelöst"
+        },
+        "titleFormatted": {
+          "en": "Schedule [[schedule]] triggered",
+          "de": "Zeitplan [[schedule]] ausgelöst"
+        },
+        "args": [
+          {
+            "name": "schedule",
+            "type": "text",
+            "placeholder": {
+              "en": "Schedule",
+              "de": "Zeitplan"
+            }
+          }
+        ]
+      },
+      {
+        "id": "cron_parts_schedule",
+        "title": {
+          "en": "Schedule triggered",
+          "de": "Zeitplan ausgelöst"
+        },
+        "titleFormatted": {
+          "en": "Schedule [[second]] [[minute]] [[hour]] [[dayOfMonth]] [[month]] [[dayOfWeek]] triggered",
+          "de": "Zeitplan [[second]] [[minute]] [[hour]] [[dayOfMonth]] [[month]] [[dayOfWeek]] ausgelöst"
+        },
+        "args": [
+          {
+            "name": "second",
+            "type": "text",
+            "required": false,
+            "placeholder": {
+              "en": "Second",
+              "de": "Sekunde"
+            }
+          },
+          {
+            "name": "minute",
+            "type": "text",
+            "placeholder": {
+              "en": "Minute",
+              "de": "Minute"
+            }
+          },
+          {
+            "name": "hour",
+            "type": "text",
+            "placeholder": {
+              "en": "Hour",
+              "de": "Stunde"
+            }
+          },
+          {
+            "name": "dayOfMonth",
+            "type": "text",
+            "placeholder": {
+              "en": "Day of Month",
+              "de": "Tag des Monats"
+            }
+          },
+          {
+            "name": "month",
+            "type": "text",
+            "placeholder": {
+              "en": "Month",
+              "de": "Monat"
+            }
+          },
+          {
+            "name": "dayOfWeek",
+            "type": "text",
+            "placeholder": {
+              "en": "Day of Week",
+              "de": "Tag der Woche"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "cron_expression_schedule",
+  "title": {
+    "en": "Schedule triggered",
+    "de": "Zeitplan ausgelöst"
+  },
+  "titleFormatted": {
+    "en": "Schedule [[schedule]] triggered",
+    "de": "Zeitplan [[schedule]] ausgelöst"
+  },
+  "args": [
+    {
+      "name": "schedule",
+      "type": "text",
+      "placeholder": {
+        "en": "Schedule",
+        "de": "Zeitplan"
+      }
+    }
+  ]
+}

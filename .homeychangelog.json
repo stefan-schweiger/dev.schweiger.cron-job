@@ -1,5 +1,8 @@
 {
   "1.0.0": {
     "en": "Initial Release"
+  },
+  "1.1.0": {
+    "en": "Switched from node-cron to cron, support timezone changes, more robust handling for updated schedules"
   }
 }

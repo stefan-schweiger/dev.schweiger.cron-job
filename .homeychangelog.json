@@ -4,5 +4,8 @@
   },
   "1.1.0": {
     "en": "Switched from node-cron to cron, support timezone changes, more robust handling for updated schedules"
+  },
+  "1.1.1": {
+    "en": "Added hints to flow cards, added homey comunity topic id"
   }
 }

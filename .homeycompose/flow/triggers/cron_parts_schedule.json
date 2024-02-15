@@ -8,6 +8,10 @@
     "en": "Schedule [[second]] [[minute]] [[hour]] [[dayOfMonth]] [[month]] [[dayOfWeek]] triggered",
     "de": "Zeitplan [[second]] [[minute]] [[hour]] [[dayOfMonth]] [[month]] [[dayOfWeek]] ausgelöst"
   },
+  "hint": {
+    "en": "Does not work with tokens/variables.",
+    "de": "Funktioniert nicht mit Token/Variablen."
+  },
   "args": [
     {
       "name": "second",

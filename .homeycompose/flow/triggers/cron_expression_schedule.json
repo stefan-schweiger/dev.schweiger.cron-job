@@ -8,6 +8,10 @@
     "en": "Schedule [[schedule]] triggered",
     "de": "Zeitplan [[schedule]] ausgelöst"
   },
+  "hint": {
+    "en": "Does not work with tokens/variables.",
+    "de": "Funktioniert nicht mit Token/Variablen."
+  },
   "args": [
     {
       "name": "schedule",
